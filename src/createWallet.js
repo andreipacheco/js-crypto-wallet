@@ -8,7 +8,7 @@ const path = require('path');
 const network = bitcoin.networks.testnet;
 
 // Caminho de derivação (carteiras HD)
-const derivationPath = `m/49'/1'/0'/0`; // 84' P2WPKH, 1' Testnet
+const derivationPath = `m/49'/1'/0'/0`; // 84' P2WPKH, (onde : 0' MainNet, 1' Testnet)
 
 // Criando as palavras para o seed (senha)
 const mnemonic = bip39.generateMnemonic();
